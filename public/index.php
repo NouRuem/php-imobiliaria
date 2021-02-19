@@ -3,6 +3,9 @@
   require_once(".".DIRECTORY_SEPARATOR."..".DIRECTORY_SEPARATOR."app".DIRECTORY_SEPARATOR."Configs".DIRECTORY_SEPARATOR."config.php");
   require_once(APP."Libraries".DIRECTORY_SEPARATOR."Rotes.php");
   require_once(APP."Libraries".DIRECTORY_SEPARATOR."Controller.php");
+  require_once(APP."Libraries".DIRECTORY_SEPARATOR."Database.php");
+
+  $db = new Database();
 
 ?>
 
