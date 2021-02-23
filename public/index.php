@@ -14,6 +14,11 @@
     <meta name="description" content="Portal para administração da imobiliária.">
     <meta name="author" content="Allan C. Cruz">
     <title><?php echo APP_NOME; ?></title>
+    <!-- Favicon -->
+    <link href="<?php echo URL."public/img/favicons/house_16x16.png"; ?>" rel="icon" sizes="16x16">
+    <link href="<?php echo URL."public/img/favicons/house_48x48.png"; ?>" rel="icon" sizes="48x48">
+    <link href="<?php echo URL."public/img/favicons/house_96x96.png"; ?>" rel="icon" sizes="96x96">
+    <link href="<?php echo URL."public/img/favicons/house_144x144.png"; ?>" rel="icon" sizes="144x144">
     <!-- Bootstrap -->
     <link href="<?php echo URL."public/assets/bootstrap/css/bootstrap.min.css"; ?>" rel="stylesheet">
     <!-- FontAwesome -->
@@ -25,7 +30,7 @@
     <!-- Geral -->
     <link href="<?php echo URL."public/css/principal.css"; ?>" rel="stylesheet">
   </head>
-  <body>
+  <body id="page-top">
 
     <?php
 
@@ -33,6 +38,11 @@
       $c_ROTES = new Rotes();
 
     ?>
+
+    <!-- Botão Topo Página -->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
 
     <!-- JS -->
     <script src="<?php echo URL."public/assets/jquery/js/jquery-3.5.1.min.js"; ?>"></script>
