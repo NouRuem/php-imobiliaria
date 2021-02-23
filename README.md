@@ -17,7 +17,7 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/NouRuem/php-imobiliaria?color=04D361">
   </a>
 
-  <a href="https://github.com/NouRuem/php-imobiliaria/blob/master/LICENSE.md">
+  <a href="https://github.com/NouRuem/php-imobiliaria/blob/main/LICENSE.md">
     <img alt="License" src="https://img.shields.io/github/license/NouRuem/php-imobiliaria?color=322153">
   </a>
 
