@@ -11,7 +11,7 @@
   <hr class="sidebar-divider my-0">
 
   <!-- Opção - Home -->
-  <li class="nav-item active">
+  <li class="nav-item">
     <a class="nav-link" href="<?php echo URL; ?>">
     <i class="fas fa-fw fas fa-home"></i>
     <span>Home</span></a>
@@ -24,9 +24,16 @@
 
   <!-- Opção - Imóveis -->
   <li class="nav-item">
-    <a class="nav-link" href="<?php echo URL."imoveis"; ?>">
-    <i class="fas fa-fw fas fa-building"></i>
-    <span>Imóveis</span></a>
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+      <i class="fas fa-fw fas fa-building"></i>
+      <span>Imóveis</span>
+    </a>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+      <div class="bg-white py-2 collapse-inner rounded">
+        <a class="collapse-item" href="#">Listar</a>
+        <a class="collapse-item" href="<?php echo URL."imoveis/cadastrar"; ?>">Cadastrar</a>
+      </div>
+    </div>
   </li>
 
   <!-- Opção - Inquilinos -->
