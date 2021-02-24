@@ -12,7 +12,7 @@
 
     public function __construct()
     {
-      $s_dsn = "mysql:host=".$this->s_host.";port=".$this->i_porta.";dbname=".$this->s_db.";";
+      $s_dsn = "mysql:host=".$this->s_host.";port=".$this->i_porta.";dbname=".$this->s_db.";charset=utf8;";
 
       // Armazena as opções da conexão PDO.
       $a_opcoes = [PDO::ATTR_PERSISTENT => true,

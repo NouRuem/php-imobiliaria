@@ -174,7 +174,15 @@
         }
         else
         {
-          echo "Prosseguir com o cadastro.";
+          // Efetua o cadastro do imóvel.
+          if($this->imovelModel->cadastrar($dados))
+          {
+            echo "Cadastro do imóvel realizado com sucesso!";
+          }
+          else
+          {
+            die("Erro ao cadastrar o imóvel no banco de dados.");
+          }
         }
       }
       else
