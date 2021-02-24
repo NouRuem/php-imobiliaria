@@ -1,0 +1,14 @@
+/*****************************************************************/
+/********* GERAL *************************************************/
+/*****************************************************************/
+
+.topbar .dropdown-list .dropdown-header
+{
+  background-color: #5a5c69;
+  background-image: linear-gradient(180deg ,#5a5c69 10%,#373840 100%);
+  background-size: cover;
+  border: 1px solid #5a5c69;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #fff;
+}
