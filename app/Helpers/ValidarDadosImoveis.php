@@ -17,7 +17,7 @@
       if(strlen($texto) <= $tamanho)
       {
         // Verifica o REGEX do texto.
-        if(preg_match('/^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ -]+$/', $texto) === 1)
+        if(preg_match('/^[0-9A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ -]+$/', $texto) === 1)
         {
           return true;
         }
