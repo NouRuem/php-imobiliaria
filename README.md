@@ -53,7 +53,7 @@ Esse repositório é destinado ao desenvolvimento de um portal para controle de 
 Todo o conteúdo apresentado aqui não seria possível graças a algumas pessoas e/ou empresas:
 
 - [Vectors Market](https://www.flaticon.com/br/): logo e favicon
-- [SB Admin 2](https://startbootstrap.com/theme/sb-admin-2): Tema do portal
+- [Bootstrap Team](https://getbootstrap.com/docs/4.5/examples/): Tema do portal
 
 <br/>
 

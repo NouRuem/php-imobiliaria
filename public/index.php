@@ -8,48 +8,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Portal para administração da imobiliária.">
     <meta name="author" content="Allan C. Cruz">
-    <title><?php echo APP_NOME; ?></title>
+    <title><?= APP_NOME; ?></title>
     <!-- Favicon -->
-    <link href="<?php echo URL."public/img/favicons/house_16x16.png"; ?>" rel="icon" sizes="16x16">
-    <link href="<?php echo URL."public/img/favicons/house_48x48.png"; ?>" rel="icon" sizes="48x48">
-    <link href="<?php echo URL."public/img/favicons/house_96x96.png"; ?>" rel="icon" sizes="96x96">
-    <link href="<?php echo URL."public/img/favicons/house_144x144.png"; ?>" rel="icon" sizes="144x144">
+    <link href="<?= URL."public/img/favicons/house_16x16.png"; ?>" rel="icon" sizes="16x16">
+    <link href="<?= URL."public/img/favicons/house_48x48.png"; ?>" rel="icon" sizes="48x48">
+    <link href="<?= URL."public/img/favicons/house_96x96.png"; ?>" rel="icon" sizes="96x96">
+    <link href="<?= URL."public/img/favicons/house_144x144.png"; ?>" rel="icon" sizes="144x144">
     <!-- Bootstrap -->
-    <link href="<?php echo URL."public/assets/bootstrap/css/bootstrap.min.css"; ?>" rel="stylesheet">
+    <link href="<?= URL."public/assets/bootstrap/css/bootstrap.min.css"; ?>" rel="stylesheet">
     <!-- FontAwesome -->
-    <link href="<?php echo URL."public/assets/fontawesome/css/all.min.css"; ?>" rel="stylesheet">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <!-- SB Admin 2 -->
-    <link href="<?php echo URL."public/assets/sbadmin2/css/sb-admin-2.min.css"; ?>" rel="stylesheet">
-    <!-- Geral -->
-    <link href="<?php echo URL."public/css/principal.css"; ?>" rel="stylesheet">
+    <link href="<?= URL."public/assets/fontawesome/css/all.min.css"; ?>" rel="stylesheet">
+    <!-- CSS Geral -->
+    <link href="<?= URL."public/css/sistema/geral.css"; ?>" rel="stylesheet">
   </head>
-  <body id="page-top">
+  <body>
 
     <?php
 
-      // Instância a classe de Rotes.
+      // Armazena a instância da classe de Rotes.
       $c_ROTES = new Rotes();
 
     ?>
 
-    <!-- Botão Topo Página -->
-    <a class="scroll-to-top rounded" href="#page-top">
-      <i class="fas fa-angle-up"></i>
-    </a>
-
-    <!-- JS -->
-    <script src="<?php echo URL."public/assets/jquery/js/jquery-3.5.1.min.js"; ?>"></script>
-    <script src="<?php echo URL."public/assets/bootstrap/js/bootstrap.bundle.min.js"; ?>"></script>
-    <script src="<?php echo URL."public/assets/jquery-easing/js/jquery.easing.min.js"; ?>"></script>
-    <script src="<?php echo URL."public/assets/sbadmin2/js/sb-admin-2.min.js"; ?>"></script>
-    <script src="<?php echo URL."public/js/principal.js"; ?>"></script>
+    <!-- JS Geral -->
+    <script src="<?= URL."public/assets/jquery/js/jquery-3.5.1.min.js"; ?>"></script>
+    <script src="<?= URL."public/assets/bootstrap/js/bootstrap.bundle.min.js"; ?>"></script>
+    <script src="<?= URL."public/js/sistema/geral.js"; ?>"></script>
 
   </body>
 </html>

@@ -6,7 +6,7 @@
     private $controller = "Paginas";
 
     // Armazena a função padrão.
-    private $function = "home";
+    private $function = "login";
 
     // Armazena os parâmetros.
     private $parameters = [];

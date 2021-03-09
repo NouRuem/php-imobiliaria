@@ -4,8 +4,7 @@
   spl_autoload_register(function($classe){
 
     // Armazena os diretórios que seram verificados.
-    $a_diretorios = ["Libraries",
-                     "Helpers"];
+    $a_diretorios = ["Libraries"];
 
     // Percorre os diretórios informados.
     foreach($a_diretorios as $diretorio)
