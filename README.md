@@ -36,8 +36,8 @@ Esse repositório é destinado ao desenvolvimento de um portal para controle de 
 
 # :computer: Tecnologias
 
-- [PHP](https://www.php.net/)
-- [jQuery](https://jquery.com/)
+- [PHP](https://www.php.net/) - v7.3.14
+- [jQuery](https://jquery.com/) - v3.5.1
 
 <br/>
 
@@ -53,7 +53,7 @@ Esse repositório é destinado ao desenvolvimento de um portal para controle de 
 Todo o conteúdo apresentado aqui não seria possível graças a algumas pessoas e/ou empresas:
 
 - [Vectors Market](https://www.flaticon.com/br/): logo e favicon
-- [Bootstrap Team](https://getbootstrap.com/docs/4.5/examples/): Tema do portal
+- [Bootstrap Team](https://getbootstrap.com/docs/4.5/examples/): tema do portal
 
 <br/>
 
